@@ -1,17 +1,26 @@
 body {
   font-family: "Tahoma", "Geneva", sans-serif;
-  background-color: #FFDE7A;
+  background-color: #191919;
+  color: #FFFFFF;
   padding-left: 20px;
 
 }
 h1 {
 padding-left: 5%;
+font-size: 40px;
+color: #FFF056;
 
 }
 h2 {
-  color: #7A0019;
+  color: #FFFF4D;
 }
-
+h3 {
+  color: #DFE2DB;
+}
+.contact {
+  width: 240px;
+background:black;
+}
 
 
 }
