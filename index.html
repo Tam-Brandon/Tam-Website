@@ -7,7 +7,14 @@
   </head>
 
 <body>
-
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1058684160927768";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 <h1>Tom's Small Engine Repairs</h1>
 
 <h2>Contact Information</h2>
@@ -46,6 +53,9 @@
 
 <p>I offer a pick up and delivery service throughout the Twin Cities. Max distance of 30 miles.<br>
 Please call for details on the rates.</p>
-
+<div class="fb-like" data-href="https://localhost" data-width="47" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false">
+</div>
+<div class="fb-comments" data-href="http://localhost/" data-numposts="5">
+</div>
 </body>
 </html>

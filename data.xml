@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workshop SYSTEM "Shop.dtd">
+<Workshop title="Tom'Small Engine Repairs">
+  <ContactInfo>
+      <Phone>763-439-4553</Phone>
+      <Email>gogogo274@yahoo.com</Email>
+  </ContactInfo>
+  <Introduction title="Welcome">
+    <About>Hello, I'm Tom and the owner of Tom's Small Engine Repairs. My garage is located north of the Twin Cities metro area in Fridley, Minnesota. Service can be drop-in and drop-off or a pick up delivery can be arranged. I've worked on small engines for 20 years and am very familiar with most models.</About>
+  </Introduction>
+  <EngineList title="Services">
+    <description>I service all makes and models</description>
+    <Engine1>Lawn mowers</Engine1>
+    <Engine2>Snow blowers</Engine2>
+    <Engine3>Generators</Engine3>
+    <Engine4>Scooters</Engine4>
+    <Engine5>ATVs</Engine5>
+    <Misc>and other small engines</Misc>
+  </EngineList>
+  <Estimate title="Price Estimates">
+    <description>Please call for an accurate estimate, but I can assure you that it'll be cheaper than my competitors. No repair will be more than $500 because at that price, you mind as well buy a new engine.</description>
+  </Estimate>
+  <Delivery title="Pick Up and Delivery!">
+    <description>I offer a pick up and delivery service throughout the Twin Cities. Max distance of 30 miles. Please call for details on the rates.</description>
+  </Delivery>
+</Workshop>

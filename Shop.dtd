@@ -1,0 +1,19 @@
+<!DOCTYPE WorkShop
+[
+<!ELEMENT Workshop (ContactInfo,Introduction,EngineList,Estimate,Delivery)>
+<!ELEMENT ContactInfo (Phone,Email)>
+<!ELEMENT Phone (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Introduction (About)>
+<!ELEMENT About (#PCDATA)>
+<!ELEMENT EngineList (description,Engine1,Engine2,Engine3,Engine4,Engine5,Misc)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT Engine1 (#PCDATA)>
+<!ELEMENT Engine2 (#PCDATA)>
+<!ELEMENT Engine3 (#PCDATA)>
+<!ELEMENT Engine4 (#PCDATA)>
+<!ELEMENT Engine5 (#PCDATA)>
+<!ELEMENT Misc (#PCDATA)>
+<!ELEMENT Estimate (description)>
+<!ELEMENT Delivery (description)>
+]>
